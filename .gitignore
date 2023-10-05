@@ -1,0 +1,64 @@
+# Игнорировать временные файлы, созданные различными редакторами и системами сборки
+/node_modules
+/.npm
+/.yarn
+*.log
+*.log.*
+yarn-debug.log*
+pnpm-debug.log*
+npm-debug.log*
+pids
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# Игнорировать файлы и папки, созданные самой средой разработки (например, Visual Studio Code)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Игнорировать файлы, созданные средствами системы сборки
+/dist
+/build
+*.tmp
+*.temp
+*.cache
+*.diff
+*.patch
+*.map
+
+# Игнорировать файлы настроек и зависимостей
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.local.example
+
+# Игнорировать файлы с настройками отладки
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+*.log.*
+*.LOG
+*.TEMP
+npm-debug.log
+yarn-error.log
+
+# Игнорировать файлы с настройками IDE
+.vscode/
+.idea/
+
+# Игнорировать файлы конфигурации редактора
+.idea/
+
+# Игнорировать файлы, содержащие переводы
+node_modules/
+dist/
